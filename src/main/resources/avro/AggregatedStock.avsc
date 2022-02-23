@@ -7,6 +7,8 @@
     { "name": "time",  "type": {"type": "long", "logicalType": "timestamp-millis"}, "doc": "Interval for which the rest of the fields are applied"},
     { "name": "min_open", "type": "float", "doc": "Open stock price" },
     { "name": "max_close", "type": "float", "doc": "Highest stock price within interval" },
-    { "name": "symbol", "type": "string", "doc": "Name of the equity" }
+    { "name": "symbol", "type": "string", "doc": "Name of the equity" },
+    { "name": "variation", "type": "float", "doc": "the variation between min open and max close" },
+    { "name": "interval", "type": "int", "doc": "the tumbling window interval" }
   ]
 }
